@@ -1,0 +1,20 @@
+#test {
+    background: red;
+}
+
+p {
+    background: yellow;
+}
+
+.test1 {
+    background: green;
+}
+
+h1.test2 {
+    background: purple;
+}
+
+p.test1 .test3 {
+    background: white;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!-- В action указывется путь, куда будут отправлены данные из формы -->
+<!-- namePerson - так будут называться данные которое войдут в form -->
+<!-- value - значение которое будет уже заполнено в форме -->
+<!-- placeholder - невидимая запись в форме -->
+<form action="/" method="">
+    <input type="text" name="namePerson" maxlength="14" placeholder="Имя">
+    <input type="text" name="namePerson" maxlength="18" placeholder="Фамилия">
+    <br>
+    <input type="pass" name="password" placeholder="Пароль">
+    <br>
+    Согласен с условиями сайта<input type="checkbox" name="checkbox">
+    <br>
+    Хочу<input type="radio" name="rad">
+    <br>
+    <input type="reset" name="reset">
+    <input type="submit" name="submit" placeholder="Подтвердить">
+    <button type="submit">Submit</button>
+    <br>
+    <br>
+    <!-- Поле для ввода текста -->
+    <textarea name="text" cols="10" rows="3" placeholder="You can type something.."></textarea>
+    <br>
+    <br>
+    <!-- Список -->
+    <select name="test2">
+        <option>Python</option>
+        <option>JS</option>
+        <option selected="">C++</option>
+        <option>C#</option>
+    </select>
+</form>
+
+</body>
+</html>

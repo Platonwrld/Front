@@ -1,0 +1,48 @@
+<!-- DOM нужен для управления содержимым html документа, а BOM это дополнительные объекты, предоставляемые браузером-->
+<!-- Во главе объект DOM, BOM стоит объект window -->
+<!-- window.document - DOM, windows.navigator - BOM, windows.Object - js -->
+<!-- Узлы-элементы - теги html документа, Текстовые-узлы - переходы, комментарии -->
+
+<!-- Дочерние узлы - это узлы, которые являются детьми непосредственно какого либо узла, потомки - все элементы, лежащие внутри какого либо узла -->
+
+<!-- Соседи - уэто узлы, у которых один и тот же родитель -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Hello</p>
+    
+    <table id="table_first">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+<script>
+    let html = document.documentElement;    // получаем весь html
+    let body = document.body;               // получаем body
+    console.log(html)
+    console.log(document.body.childNodes)
+
+    for (let i = 0; i < document.body.childNodes.length; i++) {
+        console.log(document.body.childNodes[i])
+    }
+
+    console.log(html.firstChild, html.lastChild)    // <head></head>, <bpdy></body>
+
+    console.log(document.head.nextSibling, document.body.previousSibling)   // #text тк перенос строки
+
+    console.log(table_first.rows[0].cells[1].innerHTML)
+
+</script>
+
+
+</body>
+</html>

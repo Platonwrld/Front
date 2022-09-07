@@ -1,0 +1,28 @@
+a:link {
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+p {
+    background-color: green;
+}
+
+input:focus {
+    background-color: blue;
+    border-color: red;
+}
+
+img[title="Картинка"] {
+    width: 100px;
+}
+
+a[href="/"] {
+    color: red;
+}

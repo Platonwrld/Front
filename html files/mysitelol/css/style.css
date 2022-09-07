@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 1;
+    font-family: Arial, Tahoma;
+    color: #444
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: #C7D5EB;
+}
+
+#reg_form {
+    width: 350px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 5px 5px 10px #aaa;
+}
+
+

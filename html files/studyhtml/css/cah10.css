@@ -1,0 +1,17 @@
+body {
+    padding: 40px;
+    background-color: rgb(219, 105, 105);
+}
+
+h1 {
+    font-size: 20em;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.lol input[type="text"] {
+    
+}
+

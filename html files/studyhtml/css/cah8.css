@@ -1,0 +1,31 @@
+body {
+    padding: 60px;
+    background-image: linear-gradient(to right, black, white);
+}
+
+p{
+    background-image: linear-gradient(yellow, transparent),
+                    linear-gradient(rgb(0, 110, 255), transparent),
+                    linear-gradient(rgb(30, 255, 0), transparent);
+}
+
+a.button {
+    border: 1px solid rgb(255, 0, 0);
+    background: white; 
+    color: black;
+    padding: 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1em;
+    background-position: bottom;
+}
+
+a.button:hover {
+    border: 1px solid rgb(255, 0, 0);
+    background: rgb(31, 231, 5);
+    color: rgb(255, 4, 159);
+    padding: 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1em;
+}

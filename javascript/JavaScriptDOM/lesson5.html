@@ -1,0 +1,39 @@
+<!-- Узлы DOM дерева - это объекты языка js -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1 id="tagh1" deflt="LOX">Hello, hello, вас не слышно</h1>
+
+
+<script>
+
+    let body = document.body
+
+    body.myStyle = {
+        color: 'green',
+        fontSize: 20
+    }
+    console.log(body.myStyle)
+
+    body.getFontSize = function() {
+        return this.myStyle.fontSize
+    }
+
+    let tag_h1 = document.getElementById('tagh1')
+    console.log(tag_h1.getAttribute('deflt'))
+    tag_h1.setAttribute('deflt', 'Pidoras')
+    console.log(tag_h1.getAttribute('deflt'))
+
+
+</script>
+
+</body>
+</html>

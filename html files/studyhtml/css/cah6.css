@@ -1,0 +1,37 @@
+body {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-image: url('../image/space.jpg');
+}
+
+div.test {
+    width: 100%;
+    border: 2px solid blue;
+    padding: 5px 10px;
+    float: left;
+    box-sizing: border-box;
+
+} 
+
+div.test1 {
+    width: 70%;
+    border: 2px solid blue;
+    padding: 5px 10px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 5px;
+    padding-bottom: 114px;
+
+} 
+
+div.test2 {
+    width: 29%;
+    border: 2px solid blue;
+    padding: 5px 10px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 5px;
+} 
+
+

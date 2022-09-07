@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="message">
+        Hello
+    </div>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+
+<script>
+
+let div = document.createElement('div')
+div.className = 'response'
+div.innerHTML = 'Sosi 2'
+
+document.body.append(div)
+
+    
+let lst = document.querySelector('ul')
+lst.after('Sosi')
+
+let new_li = document.createElement('li')
+new_li.innerHTML = '5'
+lst.append(new_li)
+
+</script>
+
+</body>
+</html>

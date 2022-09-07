@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="tree">
+    <p>Hello</p>
+</div>
+
+<ol>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ol>
+
+<div class="content-table">
+    <ul class="siva">
+        <li class="second">Дупак</li>
+        <li class="first">Слово</li>
+        <li class="second">Джава</li>
+        <li class="first">Лось</li>
+        <li class="first">Гет</li>
+    </ul>
+</div>
+
+<script>
+
+    let div_tree = document.getElementById('tree')
+    list = (document.querySelectorAll('ol > li'))
+    console.log(list[1])
+
+    let lst = document.querySelectorAll('ul.siva > li')     
+    for (let item of lst) {                                     // item == <li class="second">Дупак</li>
+        if (item.matches('li.first')) console.log(item);
+    }
+
+</script>
+
+
+</body>
+</html>

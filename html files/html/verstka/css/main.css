@@ -1,0 +1,15 @@
+header {
+    height: 967px;
+    background-image: url('../images/buisness.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header div.menu{
+    height: 134px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+header div.menu a img{
+
+}

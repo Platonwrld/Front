@@ -1,0 +1,7 @@
+body {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-image: url('../image/space.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
